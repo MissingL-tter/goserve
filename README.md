@@ -8,6 +8,11 @@ This does nothing but loading the directory for the browser to interpret. I have
 $ goserve
 ```
 
+### Opens the working directory on some port
+```bash
+$ goserve :port
+```
+
 ### Opens the listed directory on port 8080
 ```bash
 $ goserve /some/absolute/path
