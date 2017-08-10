@@ -28,7 +28,3 @@ func main() {
 	fmt.Printf("Starting server at %v on port %v\n", path, port)
 	log.Fatal(http.ListenAndServe(port, http.FileServer(http.Dir(path))))
 }
-
-// goserve
-// goserve /foo/bar
-// goserve /foo/bar 8080
